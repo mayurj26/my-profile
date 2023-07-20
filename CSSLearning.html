@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-li, span {
+p {
+    border: 5px solid;
+    text-align: center;
     color: orange;
 }
 h3 {
@@ -15,6 +17,14 @@ h3 {
 #summary
 {
     color: rgb(249, 244, 244);
+}
+.fruit li
+{   list-style-type: upper-alpha;
+    
+}
+.dummy li{
+    list-style-type: square;
+color: black;
 }
 </style>
 
@@ -26,14 +36,26 @@ h3 {
     <h3  style="color: rgb(201, 189, 189); text-transform: uppercase; text-decoration: underline;">My Personal Details</h3>
   <!--  <p> https://github.com/PravinMane557/my-profile.git-->
     </p>
-    <p style="color: orange; font-weight: bolder; font-size: larger;">
+    <p style="color: rgb(17, 16, 14); font-weight: bolder; font-size: larger;">
         The app guides users through the local as well as tourist places in Pune, including tourist destinations, food and drinks, hotels, entertainment, sports and much more</p>
     <h3 id="summary">My Professional Summary</h3>
     <ul>
+        <li id="summary2">The app guides users through the local as well as tourist places  </li>
+        <li id="summary3">The app guides users through the local as well as tourist places</li>
+        <li>The app guides users through the local as well as tourist places</li>
+    </ul>
+    <h3>My <span>Professional</span> Summary</h3>
+
+    <ul class="dummy">
         <li>The app guides users through the local as well as tourist places  </li>
         <li>The app guides users through the local as well as tourist places</li>
         <li>The app guides users through the local as well as tourist places</li>
     </ul>
-    <h3>My <span>Professional</span> Summary</h3>
+    <p>List of Fruit</p>
+    <ol class="fruit">
+        <li>Apple </li>
+        <li>Mango</li>
+        <li>orange</li>
+    </ol>
 </body>
 </html>

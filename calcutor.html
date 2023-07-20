@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100&family=Sofia&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&family=Sofia&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&family=Sofia&display=swap"
+        rel="stylesheet">
+    <style>
+        div {
+            width: fit-content;
+            background-color: aliceblue;
+            border-radius: 20px;
+            margin: 20px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        h2,
+        h4,
+        h5 {
+            font-family: 'Poppins', sans-serif;
+
+            color: rgb(67, 158, 161);
+        }
+
+        label {
+            font-family: 'Poppins', sans-serif;
+            color: rgb(67, 158, 161);
+        }
+
+        #detailsButton {
+            
+            background-color: rgb(88, 155, 73);
+            font-family: 'Poppins', sans-serif;
+            border-radius: 20px;
+            width: 400px;
+           margin-top: 20px;
+
+
+
+        }
+
+        input,
+        select  /*[type="text"]*/
+            {
+            display: flex;
+            width: 400px;
+            border-radius: 10px;
+            padding: 7px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-size: large;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h2 {
+            padding-top: 30px;
+            text-align: center;
+            text-decoration-color: aquamarine;
+        }
+
+        h4 {
+            text-align: left;
+            text-decoration-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>DISCOUNT CALCULATOR</h2>
+        <form>
+            <h4>Enter the Bill amount and discount in percentage</h4>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>Bill Amount</label></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text"></label></td>
+                    </tr>
+                    <tr>
+                    <td><label>Discount Percentage</label></td>
+                    </tr>
+                   <tr> <td> <select name="Graduation" id="grad">
+                            <option value="B.E(Mech)">10%</option>
+                            <option value="B.E(Comp)">20@</option>
+                            <option value="B.E(IT)">30%</option>
+                            <option value="B.E(EnTC)">40%</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>
+                         <button type="submit" id="detailsButton">Calculate</button>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5>Total Discount Amount</h5><br>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

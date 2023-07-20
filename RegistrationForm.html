@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100&family=Sofia&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&family=Sofia&display=swap" rel="stylesheet">
+       
+    <Style>
+             h2{
+                color: rgb(64, 136, 139);
+        font-family: 'Roboto', sans-serif;
+        padding-left: 200px;
+       }
+       label{
+            font-family: 'Poppins', sans-serif;
+            color: rgb(64, 136, 139);
+        }
+        #detailsButton{
+            font-family: 'Poppins', sans-serif;
+            border-radius: 10px;
+            padding-left: 60px;
+            padding-right: 60px;
+            text-align: center;
+            margin: 10px;
+           
+        }
+    input, select, textarea{
+        font-family: 'Poppins', sans-serif;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+         margin: 2px;
+
+        }
+        div{
+            
+            padding-left: 10px;
+            background-color: rgb(220, 220, 220);
+            
+ 
+        }
+        table{
+            border-radius: 50px;
+            background-color: rgb(248, 248, 248);
+            padding: 20px;
+        }
+       
+    </Style>
+</head>
+
+<body><div><br>
+    <h2><u> Student Registration Form</u></h2>
+    <table>
+        <tbody>
+            <form>
+                <tr>
+                    <td><label> First Name </label></td>
+                    <td> <input type="text" required placeholder="only capital"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Last Name </label> </td>
+                    <td> <input type="text" required placeholder="only capital"> </td>
+
+                </tr>
+                <tr>
+                    <td> <label> Age </label> </td>
+                    <td> <input type="number" required placeholder="only Age >=18"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Name of your country </label> </td>
+                    <td> <input type="text" value="India" readonly></td>
+
+                </tr>
+                <tr>
+                    <td> <label> E-mail </label> </td>
+                    <td> <input type="email"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Password</label> </td>
+                    <td> <input type="password"></td>
+
+                </tr>
+                <tr>
+                    <td> <label for="grad">Graduation</label> </td>
+                    <td> <select name="Graduation" id="grad">
+                        <option value="B.E(Mech)">B.E(Mech)</option>
+                        <option value="B.E(Comp)">B.E(Comp)</option>
+                        <option value="B.E(IT)">B.E(IT)</option>
+                        <option value="B.E(EnTC)">B.E(EnTC)</option>
+
+                    </select></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Mobile </label> </td>
+                    <td> <input type="tel"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Date of Birth </label> </td>
+                    <td> <input type="date"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Pass Out Year</label> </td>
+                    <td> <input type="date"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Select Available for discussion</label> </td>
+                    <td> <input type="week"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Suitable Time</label> </td>
+                    <td> <input type="time"></td>
+
+                </tr>
+                <tr>
+                    <td> <label> Gender</label> </td>
+                    <td> <input type="radio" name="Gender"><label>Male</label>
+                        <input type="radio" name="Gender"><label>Female</label>
+                        <input type="radio" name="Gender"><label>Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label> Technology Stack</label> </td>
+                    <td> <input type="checkbox"><label> C </label> 
+                        <input type="checkbox"><label> JAVA</label> 
+                        <input type="checkbox"><label> PHYTON </label> 
+                        <input type="checkbox"><label> PHP </label> 
+                        <input type="checkbox"><label> ANGULAR </label> 
+                        <input type="checkbox"><label> REACT </label> 
+                    </td>
+
+                </tr>
+                <tr>
+                    <td> <label> Permanent Address</label> </td>
+                    <td> <textarea></textarea></td>
+
+                </tr>
+                <tr>
+                    <td><button type="submit" id="detailsButton">  Register</label> </td>
+                    <td> <button type="reset" id="detailsButton"> Reset</td>
+
+                </tr>
+            </form>
+        </tbody>
+
+
+    </table>
+    <br><br>
+</div>
+</body>
+
+</html>

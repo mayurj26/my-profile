@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .div1 {
+            border: black solid;
+            
+            display: inline-block;
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            /*  default position property is static : means top left right ,bottom z-indexwont be applied*/
+            /* left: 100px;
+                top: 100px;*/
+            position: relative;
+            left: 100px;
+            top: 70px;
+
+        }
+
+        .div2 {
+            border: black solid;
+            display: inline-block;
+            background-color: white;
+            width: 300px;
+            height: 400px;
+            position: relative;
+            left: 200px;
+            top: 50px;
+        }
+
+        .div3 {
+            border: black solid;
+            display: inline-block;
+            background-color: white;
+            width: 300px;
+            height: 400px;
+            position: relative;
+            left: 300px;
+            top: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            box-sizing: border-box;
+            background-color: rgb(5, 153, 5);
+            margin: auto;
+            padding: 15px;
+            border-bottom: green;
+        }
+
+        .points li {
+            
+            padding: 10px;
+            list-style-type: none;
+        }
+
+        .points li::before {
+
+            content: "✔️";
+        }
+
+        .cancel {
+            list-style-type: none;
+            text-align: center;
+            margin-right: 40px;
+        }
+
+        .cancel li::before {
+            list-style-type: none;
+            text-align: center;
+            content: "✖️";
+        }
+
+        .button1 {
+            background-color: rgb(5, 153, 5);
+            text-align: center;
+            height: 30px;
+            width: 250px;
+            margin-left: 20px;
+            border-radius: 10px;
+            border
+        }
+
+        .content-section {
+           
+            display: inline-block;
+        }
+
+        h2 {
+
+            text-align: center;
+            margin-top: 0%;
+        }
+        
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="div1">
+        <h1>Basic</h1>
+        <div class="content-section">
+            <ul>
+                <ul class="points">
+                    <li> Hosting</li></ul>
+                <ul class="cancel">   
+                    <li> Domian</li></ul>
+                <ul class="points">
+                    <li> 1 gb Space</li></ul>
+                <ul class="cancel">   
+                    <li> Free SSL </li></ul>
+                <ul class="points">    
+                    <li> 1 website Host</li>
+                </ul>
+            </ul>
+        </div>
+        <h2>$20</h2>
+        <p class="div5"> <button class="button1">BUY NOW</button>
+        </p>
+    </div>
+    <div class="div2">
+        <h1>Strandard</h1>
+        <div class="content-section">
+            <ul class="points">
+                <li>Hosting </li>
+                <li>Domian</li>
+                <li>1 gb Space</li>
+                <li>Free SSL </li>
+                <li>1 website Host</li>
+            </ul>
+        </div>
+        <h2>$20</h2>
+        <p class="div5"> <button class="button1">BUY NOW</button>
+        </p>
+    </div>
+    <div class="div3">
+        <h1>Strandard</h1>
+        <div class="content-section">
+            <ul class="points">
+                <li>Hosting </li>
+                <li>Domian</li>
+                <li>1 gb Space</li>
+                <li>Free SSL </li>
+                <li>1 website Host</li>
+            </ul>
+        </div>
+        <h2>$20</h2>
+        <p class="div5"> <button class="button1">BUY NOW</button>
+        </p>
+    </div>
+
+</body>
+
+</html>
